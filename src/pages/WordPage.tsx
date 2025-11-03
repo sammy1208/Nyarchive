@@ -1,5 +1,5 @@
 
-import { useState } from "react"
+// import { useState } from "react"
 
 import { useNavigate } from "react-router-dom"
 
@@ -7,7 +7,7 @@ export default function Word () {
 
   const Navigate = useNavigate();
 
-    const [data, setData] = useState([1, 2, 3, 4])
+    const data = [1, 2, 3, 4]
 
 
 
